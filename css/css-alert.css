@@ -38,6 +38,17 @@ html{
     width: 35px;
 }
 
+.user-show-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-show-container p{
+    margin: 10px;
+    font-size: 15px;
+}
+
 .body-section{
     background-color: rgb(253, 159, 255);
     padding: 10px;
@@ -60,11 +71,14 @@ html{
 }
 
 .body-alert{
-
+    background-color: rgb(235, 148, 251);
     display: flex;
     height: auto;
-    width: 100%;
+    width: auto;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    justify-content: space-between;
 }
 
 .body-alert li{
@@ -72,16 +86,22 @@ html{
     margin: 10px;
     list-style: none;
     justify-content:flex-start;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .body-page{
     background-color: rgb(253, 159, 255);
     border-radius: 0px 0px 10px 10px;
-
+    padding: 10px;
 }
 
 .body-page div{
-    margin: 0 10px 10px 10px;
+    margin: 10px;
+    padding: 10px;
+    
 }
 
 .News{
@@ -92,11 +112,14 @@ html{
     display: flex;
     justify-content:left;
     align-items: center;
-    padding: 0px 10px 10px 10px;
-    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+
 .person p{
+    justify-content: center;
+    align-items: center;
     margin: 10px;
+    width: auto;
 }
 
 .person img{
@@ -104,4 +127,32 @@ html{
     width: 35px;
 
 }
-    
+
+.page{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content{
+    width: auto;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.graph-container{
+    width:fit-content;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.graph-container img{
+    height: 150px;
+    width: auto;
+}
