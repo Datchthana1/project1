@@ -30,7 +30,16 @@ html{
     text-transform: uppercase;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    cursor:pointer;
+}
+
+.home a:hover{
+    height: auto;
+    width: auto;
+    justify-content: center;
+    transform: translate(20px,0px);
+    transition: 250ms;
 }
 
 .home img{
