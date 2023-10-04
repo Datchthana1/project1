@@ -154,6 +154,7 @@ nav{
 
 .menu .alert i{
     color: #333;
+    text-decoration: none;
 }
 
 .menu .alert h4 {
