@@ -38,7 +38,7 @@ html{
     height: auto;
     width: auto;
     justify-content: center;
-    transform: translate(20px,0px);
+    transform:translate(20px,0px);
     transition: 250ms;
 }
 
@@ -88,7 +88,7 @@ html{
     padding: 10px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .body-alert li{
@@ -106,6 +106,7 @@ html{
     background-color: rgb(253, 159, 255);
     border-radius: 0px 0px 10px 10px;
     padding: 10px;
+    height: auto;
 }
 
 .body-page div{
@@ -148,11 +149,13 @@ html{
 
 .container-content{
     width: auto;
-    height: auto;
+    height: 100%;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-
+    background-color: rgb(243, 182, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .graph-container{
